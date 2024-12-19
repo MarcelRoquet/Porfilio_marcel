@@ -101,7 +101,9 @@ a{
 }
 .content ul li {
   width: 100px;
-
+  display: flex;
+  align-items: center;
+ justify-content: center;
 
   background-color: #374151;  
   padding: 10px;
@@ -116,14 +118,21 @@ a{
   flex-direction: column;     
 }
 
-.linkedinimg{
+.logosimg{
   height: 25px;
   width: 25px;
+  margin-right: 3px;
 }
 .in{
   display: flex; 
   align-items: center;
   justify-content: center;
+  position: relative;
 
 }
-
+.maillogo{
+  height: 22px;
+  width: 37px;
+ margin-right: 3px;
+ align-items: center;
+}
