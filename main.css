@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
     
  header{
   display:flex;
@@ -30,27 +31,29 @@
     height: auto;
     position: absolute;
     left: 25%;
-    z-index: 10; /* Asegúrate de que esté en el frente */
+    z-index: 10; 
 
 }
 body {
     height: 100vh; 
+    
     background: radial-gradient(circle, #1a1f3c, #0d1133); 
     font-family: Arial, sans-serif; 
     
-    position: relative;
+   
   }
  
 
 .menu{
     display: flex;
   align-items: center;
+  justify-content: center;
   
     background-color: #374151; 
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 8px; 
-    width: 100%;
+    width: 80%;
     position: relative;
     
   }
@@ -77,6 +80,8 @@ a{
     position: fixed; 
     top: 5px; 
     z-index: 1000; 
+    display: flex;
+    justify-content: center;
     
   }
   main{
@@ -106,28 +111,24 @@ a{
     position: absolute;
     margin-left: 10px; 
   }
-  .datos.i1, .datos.i5, .datos.i2, .datos.i3, .datos.i4 {
-    margin-left: 10px; /* Margen izquierdo común */
-   
-}
 
 
 .datos.i1 {
-    left: 0%; /* Posiciona i1 a la izquierda dentro del contenedor */
+    left: 0%; 
 }
 .datos.i2{
-  left: 20%;
+  left: 19%;
 }
 
 .datos.i3{
-  left: 40%;
+  left: 38%;
 }
 .datos.i4{
-  left: 62%;
+  left: 60%;
 }
 
 .datos.i5 {
-    right: 1%;; /* Posiciona i5 a la derecha dentro del contenedor */
+    right: 1%;; 
 }
   
   .item-1 {
