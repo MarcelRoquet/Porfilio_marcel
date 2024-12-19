@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+
 *{
     color: white;
     box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
   
-  
+
 }
 body {
     height: 100vh; 
@@ -137,21 +143,19 @@ a{
 
 }
 li:hover{
-  animation: agrandar_li 0.2s ease forwards; 
+  animation: agrandar 0.2s ease forwards; 
 
   p {
     color: lightblue;
   }
 }
 
-@keyframes agrandar_li {
+@keyframes agrandar {
   0%{ 
-    width: 124.8px;
-    height: 50.2px;
+    transform: scale(1); /* Tamaño inicial */
   }
   100%{
-    width: 131.8px;
-    height: 57.2px;
+    transform: scale(1.2); /* Tamaño inicial */
    
   }
 }
