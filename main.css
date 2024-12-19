@@ -1,6 +1,7 @@
 *{
     color: white;
   
+  
 }
 body {
     height: 100vh; 
@@ -110,8 +111,8 @@ a{
   border-radius: 100px;
   border: solid whitesmoke;
   margin: 5px;
-  
-  
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .content {
   display: flex;              
