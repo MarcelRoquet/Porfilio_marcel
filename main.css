@@ -8,7 +8,13 @@
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     
- 
+ header{
+  display:flex;
+  justify-content: center;
+  width: auto;
+  position: 0%;
+
+ }
     
   }
   h1{
@@ -34,20 +40,21 @@ body {
     
     position: relative;
   }
-  #padre{
-    display:flex;
-    justify-content: center;
-  }
+ 
 
 .menu{
     display: flex;
-    justify-content: center;
+  align-items: center;
+  
     background-color: #374151; 
-    padding: 10px 25px 10px 25px;
+    padding-right: 10px;
+    padding-left: 10px;
     border-radius: 8px; 
-    width: auto;
-
+    width: 100%;
+    position: relative;
+    
   }
+
 a{
   text-decoration: none;
 }
@@ -57,16 +64,20 @@ a{
   
     margin: 7px;
     
+    
 
   }
   .menu nav a:hover {
     color: lightblue;
-    animation: agrandar 0.2s ease forwards; 
+   
+   font-size: 15.5px; 
   }
+  
   .posicion{
     position: fixed; 
     top: 5px; 
     z-index: 1000; 
+    
   }
   main{
     display: flex;
@@ -90,6 +101,34 @@ a{
     
 
   }
+  .datos{
+    margin-right: 7px;
+    position: absolute;
+    margin-left: 10px; 
+  }
+  .datos.i1, .datos.i5, .datos.i2, .datos.i3, .datos.i4 {
+    margin-left: 10px; /* Margen izquierdo común */
+   
+}
+
+
+.datos.i1 {
+    left: 0%; /* Posiciona i1 a la izquierda dentro del contenedor */
+}
+.datos.i2{
+  left: 20%;
+}
+
+.datos.i3{
+  left: 40%;
+}
+.datos.i4{
+  left: 62%;
+}
+
+.datos.i5 {
+    right: 1%;; /* Posiciona i5 a la derecha dentro del contenedor */
+}
   
   .item-1 {
     grid-column: span 1;
@@ -118,8 +157,17 @@ a{
   padding-top: 0px;
 
 }
+.ul{
+  margin: 6px;
+  height: 25px;
+  width: 600px;
+  justify-content: space-around;
+  
 
-.content ul{
+
+}
+
+ ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -138,7 +186,7 @@ a{
   padding: 10px;
   border-radius: 100px;
   border: solid whitesmoke;
-  margin: 5px;
+  margin: 10px;
   padding-top: 0px;
   padding-bottom: 0px;
   height: 50px;
