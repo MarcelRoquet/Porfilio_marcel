@@ -95,11 +95,13 @@ a{
 .content ul{
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-left: 0;
 
 }
 .content ul li {
+  width: 60px;
+
   
   background-color: #374151;  
   padding: 10px;
