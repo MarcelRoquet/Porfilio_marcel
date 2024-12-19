@@ -131,6 +131,11 @@ a{
   position: relative;
 
 }
+li:hover{
+  p {
+    color: lightblue;
+  }
+}
 .maillogo{
   height: 22px;
   width: 37px;
