@@ -1,5 +1,6 @@
 *{
     color: white;
+    box-sizing: border-box;
   
   
 }
@@ -101,10 +102,12 @@ a{
 
 }
 .content ul li {
-  width: 100px;
+  width: 110px;
   display: flex;
   align-items: center;
  justify-content: center;
+ padding-left: 15px;
+ padding-right: 15px;
 
   background-color: #374151;  
   padding: 10px;
@@ -132,8 +135,21 @@ a{
 
 }
 li:hover{
+  animation: agrandar_li 0.2s ease forwards; 
+
   p {
     color: lightblue;
+  }
+}
+
+@keyframes agrandar_li {
+  0%{ 
+    width: 124.8px;
+    height: 55.2px;
+  }
+  100%{
+    width: 129.8px;
+    height: 60.2px;
   }
 }
 .maillogo{
