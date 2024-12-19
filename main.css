@@ -116,6 +116,8 @@ a{
   margin: 5px;
   padding-top: 0px;
   padding-bottom: 0px;
+  height: 50px;
+  position: relative;
 }
 .content {
   display: flex;              
@@ -131,7 +133,7 @@ a{
   display: flex; 
   align-items: center;
   justify-content: center;
-  position: relative;
+
 
 }
 li:hover{
@@ -145,11 +147,12 @@ li:hover{
 @keyframes agrandar_li {
   0%{ 
     width: 124.8px;
-    height: 55.2px;
+    height: 50.2px;
   }
   100%{
-    width: 129.8px;
-    height: 60.2px;
+    width: 131.8px;
+    height: 57.2px;
+   
   }
 }
 .maillogo{
@@ -157,4 +160,11 @@ li:hover{
   width: 37px;
  margin-right: 3px;
  align-items: center;
+}
+.butom{
+  width: 131.8px;
+  height: 57.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
