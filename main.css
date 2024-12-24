@@ -318,6 +318,25 @@ ol{
    
 
 }
-.exp{
+/* experiencia */
+
+
+.experienciapos {
+  width: 500px;
   
+}
+.experienciapospadre{
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.experiencialist.segundo{
+  padding-left: 0px;
+}
+
+ol li h3{
+  margin: 0px;
+}
+ol li h4{
+  margin-top: 0px;
 }
