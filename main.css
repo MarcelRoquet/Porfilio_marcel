@@ -41,7 +41,7 @@
     border-radius: 8px; 
     width: 80%;
     position: relative;
-    backdrop-filter: blur(100px); 
+    backdrop-filter: blur(10px); 
     
     
   }
