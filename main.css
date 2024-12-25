@@ -355,9 +355,14 @@ div ul li img{
 }
 .skills{
  
- gap: 30px;
+ gap: 25px;
 }
 
-div ul li {
+.skills>li {
   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+  padding: 10px;
+}
+.title.skl{
+  right: 27%;
 }
