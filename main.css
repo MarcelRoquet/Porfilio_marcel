@@ -348,3 +348,16 @@ div ul li img{
   width: 70px;
   height: 70px;
 }
+.iconos{
+ margin-top: 15px;
+ display: flex;
+ justify-content: space-around;
+}
+.skills{
+ 
+ gap: 30px;
+}
+
+div ul li {
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3); 
+}
