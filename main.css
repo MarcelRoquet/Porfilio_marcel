@@ -81,10 +81,10 @@
   }
   
   .datos.i3{
-    left: 38%;
+    left: 40%;
   }
   .datos.i4{
-    left: 60%;
+    left: 64%;
   }
   
   .datos.i5 {
@@ -112,6 +112,7 @@
     padding: 20px; 
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3); 
     border-radius: 8px; 
+    background: radial-gradient(circle, #1a1f3c, #0d1133); 
 }
 main{
   
@@ -362,7 +363,22 @@ div ul li img{
   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3); 
   border-radius: 10px;
   padding: 10px;
+  background: radial-gradient(circle, #1a1f3c, #0d1133); 
+  transition: background 1s ease; 
 }
+.skills>li:hover {
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+  padding: 10px;
+  background: radial-gradient(circle, #364079, #0d1133); 
+}
+
+
 .title.skl{
   right: 27%;
+}  
+
+.title.exp{
+  right:22% ;
 }
+
