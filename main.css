@@ -101,7 +101,8 @@
   }
   
   section{
-    
+    position: relative;
+    overflow: hidden;
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -339,4 +340,10 @@ ol li h3{
 }
 ol li h4{
   margin-top: 0px;
+}
+
+/* Lenguajes*/
+div ul li img{
+  width: 60px;
+  height: 60px;
 }
