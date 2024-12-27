@@ -5,7 +5,7 @@
 *{
     color: white;
     box-sizing: border-box;
-    font-size: 16px;
+    
     font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
     
@@ -351,7 +351,7 @@ div ul li img{
 }
 .iconos{
  margin-top: 15px;
- display: flex;
+ display:flex;
  justify-content: space-around;
 }
 .skills{
