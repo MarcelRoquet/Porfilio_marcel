@@ -9,7 +9,9 @@
     font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
     
- 
+ p{
+  text-align: justify;
+ }
     
   }
   /*header*/
@@ -384,3 +386,30 @@ div ul li img{
   right: 22%;
 }
 
+/* proyectos */
+.article{
+  display: flex;
+  justify-content: center;
+}
+
+.articlepart{
+  width: 40%;
+  
+}
+
+.boton{
+  width: 80px;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ 
+
+  background-color: #374151;  
+  
+  border-radius: 25px;
+  border: solid whitesmoke;
+  
+ 
+  height: 45px;
+  position: relative;
+}
