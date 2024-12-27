@@ -413,3 +413,14 @@ div ul li img{
   height: 45px;
   position: relative;
 }
+svg{
+  margin-right: 5px;
+}
+
+.boton:hover{
+  animation: agrandar_li 0.2s ease forwards; 
+
+  p {
+    color: lightblue;
+  }
+}
