@@ -39,7 +39,7 @@
     display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(55, 65, 81, 0.8); 
+  background-color: rgba(55, 65, 81, 0.5); 
   padding: 0 10px;
     border-radius: 8px; 
     width: auto;
@@ -217,7 +217,7 @@ body {
  padding-left: 15px;
  padding-right: 15px;
 
-  background-color: #374151;  
+ background-color: rgba(55, 65, 81, 0.5); 
   padding: 10px;
   border-radius: 100px;
   border: solid whitesmoke;
@@ -373,7 +373,6 @@ div ul li img{
   display: flex;
   align-items: center;
  justify-content: center;
-  background-color: #374151;  
   border-radius: 25px;
   border: solid whitesmoke;
   height: 45px;
