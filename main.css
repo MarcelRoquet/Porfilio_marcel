@@ -135,13 +135,7 @@ body {
 /* sobremi */
 
 
-.title{
-position: relative;
-right: 25%;
-margin: 0;
 
-
-}   
    
   
   
@@ -370,12 +364,23 @@ div ul li img{
   background: radial-gradient(circle, #364079, #0d1133); 
 }
 
-
+/* titulos */
+.title{
+  position: relative;
+  right: 22%;
+  margin: 0;
+  }   
 .title.skl{
-  right: 27%;
+  right: 24%;
 }  
+.title.est{
+  right: 22.5%;
+}
 
 .title.exp{
-  right:22% ;
+  right: 21% ;
+}
+.title.pro{
+  right: 22%;
 }
 
