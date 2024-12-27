@@ -11,6 +11,9 @@
  p{
   text-align: justify;
  }
+ a{
+  text-decoration: none;
+}
     
   }
   /*header*/
@@ -23,46 +26,35 @@
     
   
    }
-  .posicion{
+  #posicion_menu{
     position: fixed; 
     top: 5px; 
     z-index: 1000; 
     display: flex;
     justify-content: center;
+    width: auto;
     
   }
   .menu{
     display: flex;
   align-items: center;
   justify-content: center;
-  
   background-color: rgba(55, 65, 81, 0.8); 
-    padding-right: 10px;
-    padding-left: 10px;
+  padding: 0 10px;
     border-radius: 8px; 
-    width: 80%;
-    position: relative;
+    width: auto;
     backdrop-filter: blur(10px); 
-    
-    
   }
-  a{
-    text-decoration: none;
-  }
+  
     .menu nav a {
-  
-      box-sizing: border-box;
-    
       margin: 7px;
-      
-      
-  
     }
     .menu nav a:hover {
       color: lightblue;
-     
      font-size: 15.5px; 
+     margin: 7px;
     }
+
     .datos{
       margin-right: 7px;
       position: absolute;
@@ -94,11 +86,7 @@
   .ul{
     margin: 6px;
     height: 25px;
-    width: 600px;
-    justify-content: space-around;
-    
-  
-  
+    width: 500px;
   }
   
   section{
@@ -385,14 +373,9 @@ div ul li img{
   display: flex;
   align-items: center;
  justify-content: center;
- 
-
   background-color: #374151;  
-  
   border-radius: 25px;
   border: solid whitesmoke;
-  
- 
   height: 45px;
   position: relative;
 }
