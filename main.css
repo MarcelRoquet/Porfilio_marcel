@@ -406,3 +406,7 @@ footer{
 .experienciapos p{
 text-align: center;
 }
+
+span>a:hover{
+color: lightblue;
+}
