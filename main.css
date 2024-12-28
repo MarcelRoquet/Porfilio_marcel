@@ -20,13 +20,11 @@
   header{
     display:flex;
     justify-content: center;
-    width: auto;
+    width: 100%;
     position: relative;
     min-height: 60px;
-    
-  
    }
-  #posicion_menu{
+  .posicion_menu{
     position: fixed; 
     top: 5px; 
     z-index: 1000; 
@@ -39,11 +37,14 @@
     display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(55, 65, 81, 0.5); 
+  background-color: rgba(55, 65, 81, 0.6); 
   padding: 0 10px;
     border-radius: 8px; 
     width: auto;
     backdrop-filter: blur(10px); 
+  }
+  .menu.footer{
+    padding: 5px 10px;
   }
   
     .menu nav a {
@@ -214,16 +215,13 @@ body {
   display: flex;
   align-items: center;
  justify-content: center;
- padding-left: 15px;
- padding-right: 15px;
-
  background-color: rgba(55, 65, 81, 0.5); 
   padding: 10px;
   border-radius: 100px;
   border: solid whitesmoke;
   margin: 10px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+ 
+ 
   height: 50px;
   position: relative;
 
@@ -388,4 +386,18 @@ svg{
   p {
     color: lightblue;
   }
+}
+
+footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  min-height: 60px;
+  align-items: center;
+  width: 100%;
+}
+.posicion_foot{
+  display: flex;
+  justify-content: space-between;
+ width: 70%;
 }
