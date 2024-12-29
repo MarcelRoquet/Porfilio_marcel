@@ -34,4 +34,39 @@
     .datos.i5 {
         left: 74%; 
     }
+    section{  
+      width: 100%; 
+    }
+    /*sobremi */
+    h1{
+        font-size: 30px;
+      }
+      .grid-container {
+       
+        grid-template-columns: 1fr 1fr;
+        gap: 10px; 
+        width: 100%; 
+        top: 10%; 
+    }
+
+    .item-1 {
+        
+        padding-top: 10px;
+    }
+    
+#yo{
+    width: 100px;
+    height: 125px;
 }
+.grid-item.item-2 h1 {
+    
+    padding-top: 13px; 
+  }
+ 
+  .content{
+    justify-content: flex-start;
+
+  }
+    
+}
+    
