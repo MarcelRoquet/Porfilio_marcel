@@ -43,18 +43,15 @@
         height: 125px;
     }
     h1{
+     margin-top: 40px;
         font-size: 30px;
+        margin-bottom: 40px;
       }
-      .grid-container {
-        display: grid;
-      
+     
+    .content{
+        width: 60%;
+        
     }
-    
-
-    
-
-  
-    
     #yo{
         position: relative;
     left: 80px;
@@ -72,5 +69,6 @@
         height: auto;
         padding: 5px;
     }
+   
 }
     
