@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    *{
+        width: 100%;
+    }
+    header{
+        min-height: 40px;
+       }
+    .posicion_menu{
+       width: 360px;
+        
+      }
+      .menu{
+        border-radius: 8px; 
+        width: 360px;
+        
+      }
+      .ul{
+        width: 340px;
+      }
+      .datos.i1 {
+        left: -5%; 
+    }
+    .datos.i2{
+      left: 16%
+    }
+    
+    .datos.i3{
+      left: 37%;
+    }
+    .datos.i4{
+      left: 51%;
+    }
+    
+    .datos.i5 {
+        left: 74%; 
+    }
+}
