@@ -57,18 +57,10 @@
     left: 80px;
       
     }
-    .grid-item.item-3{
-       font-size: 12px;
-       display: flex;
-       justify-content: center;
-       padding: 0px;
-   
+    .contenedor{
+      width: 100%;
     }
-    .grid-item.item-3>p{
-        width: 340px;
-        height: auto;
-        padding: 5px;
-    }
+    
    
 }
     
