@@ -60,7 +60,19 @@
     .contenedor{
       width: 100%;
     }
-    
+    .subcontenedor{
+      position: relative;
+    }
+  .article{
+    display: flex;
+    flex-direction: column;
+  }
+    .articlepart{
+
+      min-width: 100%;
+      min-height: 100%;
+      
+    }
    
 }
     

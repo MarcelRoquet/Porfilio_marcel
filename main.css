@@ -132,6 +132,11 @@ body {
 
 /* sobremi */
 
+#botones{
+  padding-left: 0;
+
+}
+
 #yo{
   border-radius: 75px;
 }
@@ -158,12 +163,13 @@ body {
  ul{
     list-style-type: none;
     display: flex;
-    padding-left: 0;
+   
 }
 
 .content {
   display: flex;              
-  flex-direction: column;     
+  flex-direction: column;    
+
 }
 
 .logosimg{
