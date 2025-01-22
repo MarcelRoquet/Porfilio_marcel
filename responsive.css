@@ -1,8 +1,5 @@
 @media (max-width: 769px) {
-  footer{
-  
-   
-  }
+ 
     *{
         width: 100%;
     }
@@ -95,6 +92,11 @@
   
   section{  
     width: 100%; 
+  }
+  .posicion_foot{
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
   }
   
 
