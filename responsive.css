@@ -78,11 +78,19 @@
       
       width:100%;
       flex-wrap: wrap;
-      padding-left: 0px;
+      padding-left: 20px;
     }
     .skills li {
       width: auto;
+     
     }
    
 }
+
+@media (max-width: 400px) {
+  .skills{
+    padding-left:10px;
+  }
+
+} 
     
