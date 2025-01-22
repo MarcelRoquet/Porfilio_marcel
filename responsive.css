@@ -34,9 +34,7 @@
     .datos.i5 {
         left: 74%; 
     }
-    section{  
-      width: 100%; 
-    }
+   
     /*sobremi */
     #yo{
         width: 100px;
@@ -73,9 +71,8 @@
       min-height: 100%;
       
     }
-
     .skills{
-      
+      justify-content: center;
       width:100%;
       flex-wrap: wrap;
       padding-left: 20px;
@@ -84,12 +81,23 @@
       width: auto;
      
     }
+    
    
 }
 
+@media (max-width: 982px) {
+  
+  section{  
+    width: 100%; 
+  }
+  
+
+} 
+
 @media (max-width: 400px) {
   .skills{
-    padding-left:10px;
+    padding-left:0px;
+    justify-content: center;
   }
 
 } 
