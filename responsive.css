@@ -47,12 +47,18 @@ span>a:active{
       }
       .ul{
         width: 340px;
+        padding: 0px;
+      }
+      .datos{
+        width: auto;
       }
       .datos.i1 {
         left: -5%; 
+  
     }
     .datos.i2{
       left: 16%
+    
     }
     
     .datos.i3{
