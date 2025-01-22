@@ -12,6 +12,23 @@
     }
 }
 
+span>a:active{
+  color: lightblue;
+  }
+  .datos:hover{
+    animation: agrandar_boton 0.2s ease ease; 
+  }
+  @keyframes agrandar_boton {
+    0%{ 
+      transform: scale(1); 
+    }
+    100%{
+      transform: scale(1); 
+     
+    }
+  }
+
+
  
     *{
         width: 100%;
