@@ -73,6 +73,16 @@
       min-height: 100%;
       
     }
+
+    .skills{
+      
+      width:100%;
+      flex-wrap: wrap;
+      padding-left: 0px;
+    }
+    .skills li {
+      width: auto;
+    }
    
 }
     
