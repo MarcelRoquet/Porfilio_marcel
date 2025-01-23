@@ -178,7 +178,7 @@ body {
 
   .left {
     grid-row: 2 / -1;
-  
+  flex-direction: column;
     color: white;
     display: flex;
     justify-content: center;
@@ -232,7 +232,7 @@ body {
 
 }
 .boton{
-  width: 110px;
+  width: auto;
   display: flex;
   align-items: center;
  justify-content: center;
@@ -391,15 +391,15 @@ div ul li img{
   width: 80px;
   display: flex;
   align-items: center;
- justify-content: center;
+ justify-content: space-around;
   border-radius: 25px;
   border: solid whitesmoke;
   height: 45px;
   position: relative;
+  padding-left:5px ;
+  padding-right: 5px;
 }
-svg{
-  margin-right: 5px;
-}
+
 
 .boton:hover{
   animation: agrandar_boton 0.2s ease forwards; 
