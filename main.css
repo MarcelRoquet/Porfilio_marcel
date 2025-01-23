@@ -231,7 +231,15 @@ body {
 
 
 }
+.nav{
+  
+}
+.boton img{
+  width: 20px;
+  height: 20px;
+}
 .boton{
+  height: auto;
   width: auto;
   display: flex;
   align-items: center;
@@ -386,6 +394,7 @@ div ul li img{
   
   
 }
+
 
 .boton.dos{
   width: 80px;
