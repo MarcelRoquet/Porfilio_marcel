@@ -196,7 +196,7 @@ body {
 
     color: white;
     display: flex;
-    justify-content: center;
+    padding-left: 120px;
     align-items: start;
     font-size: 1.2em;
     border-radius: 200%;
