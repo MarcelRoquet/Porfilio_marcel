@@ -1,5 +1,10 @@
 @media (max-width: 769px) {
+
   /*grid*/
+  .text h4{
+    width: auto;
+    
+  }
 
   .grid-container {
     grid-template-columns: 1fr; 
@@ -100,32 +105,6 @@ span>a:active{
         left: 74%; 
     }
    
-    /*sobremi */
-    #yo{
-        width: 100px;
-        height: 125px;
-    }
-    h1{
-     margin-top: 40px;
-        font-size: 30px;
-        margin-bottom: 40px;
-      }
-     
-    .content{
-        width: 60%;
-        
-    }
-    #yo{
-        position: relative;
-    left: 80px;
-      
-    }
-    .contenedor{
-      width: 100%;
-    }
-    .subcontenedor{
-      position: relative;
-    }
   .article{
     display: flex;
     flex-direction: column;
@@ -174,6 +153,10 @@ span>a:active{
 
 } 
 @media (max-width: 487px) {
+  .text h4{
+    width: 100%;
+  
+  }
  
   .right img{
     width: 140px;
