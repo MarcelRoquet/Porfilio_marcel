@@ -156,6 +156,7 @@ body {
   /*grid sobremi */
   .grid-container {
     display: grid;
+    margin-top: 7px;
     grid-template-rows: 10% 90%;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -172,16 +173,19 @@ body {
     justify-content: left;
     align-items: center;
     font-size: 1.5em;
+    background-color: #364079;
   }
 
   .left {
     grid-row: 2 / -1;
-    background-color: #2196F3;
+  
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:start;
     font-size: 1.2em;
+    padding-top: 10px;
+    background-color: #FF5722;
   }
 
   .right {
@@ -192,7 +196,20 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
+   
   }
+ 
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+  }
+.text p,h4{
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
 /*fingrid*/
  ul{
     list-style-type: none;
