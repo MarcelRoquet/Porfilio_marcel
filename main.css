@@ -162,7 +162,7 @@ body {
     gap: 10px;
     width: 90%;
     max-width: 800px;
-    height: 400px;
+    height: auto;
   }
 
   .header {
@@ -181,11 +181,12 @@ body {
   flex-direction: column;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items:start;
     font-size: 1.2em;
     padding-top: 10px;
-    background-color: #FF5722;
+    
+   
   }
 
   .right {
@@ -209,12 +210,16 @@ body {
   margin: 0px;
   margin-bottom: 10px;
 }
+.text h4{
+  font-size: 25px;
+}
 
 /*fingrid*/
  ul{
     list-style-type: none;
     display: flex;
-   
+    gap: 20px;
+   padding-left: 0px;
 }
 
 
@@ -232,29 +237,47 @@ body {
 
 }
 .nav{
-  
+width: 100%;
+
 }
 .boton img{
   width: 20px;
   height: 20px;
 }
-.boton{
-  height: auto;
-  width: auto;
+.boton.descargar{
+  gap:0px ;
+}
+
+.boton {
   display: flex;
   align-items: center;
- justify-content: center;
- background-color: rgba(55, 65, 81, 0.5); 
-  padding: 10px;
-  border-radius: 100px;
-  border: solid whitesmoke;
-  margin: 10px;
- 
- 
+  justify-content: center;
+  width: 120px;
+  padding: 10px 20px;
   height: 50px;
-  position: relative;
-
+  background-color: rgba(55, 65, 81, 0.8); 
+  border: 2px solid whitesmoke;
+  color: whitesmoke; 
+  border-radius: 12px; 
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  gap: 5px;
 }
+
+.boton:hover {
+  background-color: rgba(75, 85, 99, 1); 
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.7); 
+}
+
+.boton:active {
+  transform: translateY(0); 
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5); 
+}
+
 @keyframes agrandar_boton {
   0%{ 
     transform: scale(1); 
