@@ -158,7 +158,7 @@ body {
     display: grid;
     margin-top: 7px;
     grid-template-rows: 10% 90%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 60% 40% ;
     gap: 10px;
     width: 90%;
     max-width: 800px;
@@ -196,10 +196,11 @@ body {
 
     color: white;
     display: flex;
-    padding-left: 120px;
+   
     align-items: start;
     font-size: 1.2em;
     border-radius: 200%;
+    padding-left: 50px;
    
   }
  
