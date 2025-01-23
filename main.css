@@ -173,7 +173,7 @@ body {
     justify-content: left;
     align-items: center;
     font-size: 1.5em;
-    background-color: #364079;
+    
   }
 
   .left {
@@ -188,15 +188,18 @@ body {
     
    
   }
-
+.right img{
+  border-radius: 50px;
+}
   .right {
     grid-row: 2 / -1;
-    background-color: #FF5722;
+
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     font-size: 1.2em;
+    border-radius: 200%;
    
   }
  
