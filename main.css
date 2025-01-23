@@ -96,6 +96,7 @@
   }
   .a{
     margin: 0%;
+  
   }
   
   section{
@@ -216,8 +217,8 @@ body {
  align-items: center;
 }
 .butom{
-  width: 131.8px;
-  height: 57.2px;
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
