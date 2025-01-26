@@ -16,7 +16,9 @@
 }
    
 [id] {
-  display: none;
+  height: 1px;
+  width: 0px;
+  position: absolute;
 }
   }
   /*header*/
