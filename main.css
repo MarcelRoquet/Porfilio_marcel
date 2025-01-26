@@ -19,6 +19,7 @@
   height: 1px;
   width: 0px;
   position: absolute;
+  z-index: -100000000;
 }
   }
   /*header*/
