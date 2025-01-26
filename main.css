@@ -2,7 +2,7 @@
 
 
 *{
-    color: white;
+    color: rgba(192, 192, 192);
     box-sizing: border-box;
     
     font-family: 'Nunito', sans-serif;
@@ -98,8 +98,8 @@
     margin: 0%;
   
   }
-  
   section{
+
     position: relative;
     overflow: hidden;
     display: flex; 
@@ -117,7 +117,7 @@
     view-timeline-axis: block;
     animation-timeline: --image;
     animation-name: show;
-    animation-range: entry 5% cover 50%;
+    animation-range: entry 5% cover 37%;
     animation-fill-mode: both;
 }
 @keyframes show {
@@ -346,6 +346,7 @@ ol{
  
 
 }
+
 .circulo{
   height: 15px;
   width: 15px;
