@@ -1,9 +1,10 @@
 @media (max-width: 769px) {
 
   /*grid*/
+
   .text h4{
     width: auto;
-    
+
   }
 
   .grid-container {
@@ -157,10 +158,11 @@ span>a:active{
     width: 100%;
   
   }
+
  
   .right img{
     width: 140px;
-    height: 150px;
+    height: 160px;
   }
   .nav ul{
     flex-direction: column;

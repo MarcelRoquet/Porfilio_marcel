@@ -14,7 +14,10 @@
  a{
   text-decoration: none;
 }
-    
+   
+[id] {
+  display: none;
+}
   }
   /*header*/
   header{
