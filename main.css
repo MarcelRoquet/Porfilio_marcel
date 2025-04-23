@@ -39,31 +39,13 @@
     width: auto;
     
   }
-  .menu{
-    position: relative;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(55, 65, 81, 0.4); 
-  padding: 0 10px;
-    border-radius: 8px; 
-    width: auto;
-    backdrop-filter: blur(10px); 
-  }
-  .menu.footer{
+  
+  .footer{
     padding: 5px 10px;
     
     background-color: rgba(55, 65, 81, 0.0); 
   }
   
-    .menu nav a {
-      margin: 7px;
-    }
-    .menu nav a:hover {
-      color: lightblue;
-     font-size: 15.5px; 
-     margin: 7px;
-    }
 
     .datos{
       
@@ -77,23 +59,6 @@
     }
   
   
-  .datos.i1 {
-      left: 0%; 
-  }
-  .datos.i2{
-    left: 22%
-  }
-  
-  .datos.i3{
-    left: 44%;
-  }
-  .datos.i4{
-    left:60%;
-  }
-  
-  .datos.i5 {
-      left: 80%; 
-  }
   .ul{
     margin: 6px;
     height: 25px;
