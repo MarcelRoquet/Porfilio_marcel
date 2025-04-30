@@ -12,9 +12,6 @@
     grid-template-rows: auto; 
 }
 
-.header {
-    grid-column: 1 / -1; 
-}
 
 .left {
     grid-row: auto;
@@ -52,9 +49,7 @@ width: auto;
 span>a:active{
   color: lightblue;
   }
-  .datos:hover{
-    animation: agrandar_boton 0.2s ease ease; 
-  }
+ 
   @keyframes agrandar_boton {
     0%{ 
       transform: scale(1); 
@@ -67,45 +62,11 @@ span>a:active{
     *{
         width: 100%;
     }
-    header{
-        min-height: 40px;
-       }
-    .posicion_menu{
-       width: 360px;
-        
-      }
-      .menu{
-        border-radius: 8px; 
-        width: 360px;
-        
-      }
+ 
       .ul{
         width: 340px;
         padding: 0px;
       }
-      .datos{
-        width: auto;
-      }
-      .datos.i1 {
-        left: -5%; 
-  
-    }
-    .datos.i2{
-      left: 16%
-    
-    }
-    
-    .datos.i3{
-      left: 37%;
-    }
-    .datos.i4{
-      left: 51%;
-    }
-    
-    .datos.i5 {
-        left: 74%; 
-    }
-   
   .article{
     display: flex;
     flex-direction: column;
@@ -158,8 +119,6 @@ span>a:active{
     width: 100%;
   
   }
-
- 
   .right img{
     width: 140px;
     height: 160px;
