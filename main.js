@@ -9,24 +9,6 @@ burguerMenu.addEventListener('click', function () {
 });
 
 
-/*section*/ 
-const sections = document.querySelectorAll("main section");
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      
-      sections.forEach((sec) => sec.classList.remove("active"));
-     
-      entry.target.classList.add("active");
-    }
-  });
-}, {
-  threshold: 1
-});
-
-
-sections.forEach((section) => observer.observe(section));
 
 
 /*color mode*/
