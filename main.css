@@ -613,3 +613,7 @@ body.claro .burguer .bar {
 body.claro .skills>li:hover {
   background: radial-gradient(circle, #dbeafe, #ffffff);
 }
+
+.añoExp{
+  margin-top: 0px;
+}
